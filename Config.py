@@ -2,7 +2,7 @@ import os
 
 class Config(object):
       def __init__(self):
-          self.BotToken     = os.environ["5233802174:AAFOIYKfx4g0dKUH7hiZga0vdIiWenW6Ggg"]
+          self.BotToken     = os.environ["5167642424:AAFLzd5mphPRA3YbjuRUCmPjDEbz16Rz4H0"]
           self.ChunkSize    = 80
           self.ChunkSizeTel = 1000
           self.ChunkFixed   = 150
@@ -11,7 +11,7 @@ class Config(object):
           self.ChunkedFileLimit = 1024 * 1024 * 1024
           self.InProcces = False
           self.BotChannel = '-1001373853391'
-          self.AdminUsers = ['toni8790','hunter4345']
+          self.AdminUsers = ['hunter4345','tigerpu']
           self.current_user_msg = ''
           self.current_chanel_msg = ''
           self.procesing = False
