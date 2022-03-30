@@ -2,7 +2,7 @@ import os
 
 class Config(object):
       def __init__(self):
-          self.BotToken     = os.environ["TOKEN"]
+          self.BotToken     = os.environ["5120127025:AAFiH-zykVW1h7KRn9UYcp72-_2ur9FoJJM"]
           self.ChunkSize    = 80
           self.ChunkSizeTel = 1000
           self.ChunkFixed   = 150
@@ -11,18 +11,18 @@ class Config(object):
           self.ChunkedFileLimit = 1024 * 1024 * 1024
           self.InProcces = False
           self.BotChannel = '-1001373853391'
-          self.AdminUsers = ['pulipulichito']
+          self.AdminUsers = ['toni8790']
           self.current_user_msg = ''
           self.current_chanel_msg = ''
           self.procesing = False
           self.watching = False
           self.watch_message = []
-          self.moodleUser = os.environ["USER"]
-          self.moodlepassword = os.environ["PASSWORD"]
-          self.users = []
+          self.moodleUser = os.environ["darian.borges@estudiantes.fbio.uh.cu"]
+          self.moodlepassword = os.environ["darian1995"]
+          self.users = [toni8790]
           self.userindex = 0
           self.nuvContent = ''
-          self.msgurls = ''
+          self.msgurls = 'evea.uh.cu'
 
 
       def setS3Token(self,token : str):
