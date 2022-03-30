@@ -11,7 +11,7 @@ class Config(object):
           self.ChunkedFileLimit = 1024 * 1024 * 1024
           self.InProcces = False
           self.BotChannel = '-1001373853391'
-          self.AdminUsers = ['toni8790']
+          self.AdminUsers = ['toni8790','hunter4345']
           self.current_user_msg = ''
           self.current_chanel_msg = ''
           self.procesing = False
@@ -22,7 +22,7 @@ class Config(object):
           self.users = [toni8790]
           self.userindex = 0
           self.nuvContent = ''
-          self.msgurls = 'evea.uh.cu'
+          self.msgurls = 'https://evea.uh.cu/'
 
 
       def setS3Token(self,token : str):
