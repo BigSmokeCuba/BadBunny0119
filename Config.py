@@ -2,7 +2,7 @@ import os
 
 class Config(object):
       def __init__(self):
-          self.BotToken     = os.environ["5167642424:AAFLzd5mphPRA3YbjuRUCmPjDEbz16Rz4H0"]
+          self.BotToken     = os.environ["5151062359:AAE2pcB0S312wuehcIG2Joeo1Yw4cZbY_gs"]
           self.ChunkSize    = 80
           self.ChunkSizeTel = 1000
           self.ChunkFixed   = 150
@@ -10,8 +10,8 @@ class Config(object):
           self.ExcludeFiles = ['MoodleApp.pyproj','bot.py','Config.py','multiFile.py','MoodleUhoClient.py','S5Crypto.py','S4Crypto.py','nuvidb.txt','requirements.txt','Procfile','__pycache__','.git','.profile.d','.heroku','bot.session','bot.session-journal','output','.cache']
           self.ChunkedFileLimit = 1024 * 1024 * 1024
           self.InProcces = False
-          self.BotChannel = '-1001373853391'
-          self.AdminUsers = ['hunter4345','tigerpu']
+          self.BotChannel = '-811906873'
+          self.AdminUsers = ['BigSmoke19']
           self.current_user_msg = ''
           self.current_chanel_msg = ''
           self.procesing = False
@@ -19,7 +19,7 @@ class Config(object):
           self.watch_message = []
           self.moodleUser = os.environ["darian.borges@estudiantes.fbio.uh.cu"]
           self.moodlepassword = os.environ["darian1995"]
-          self.users = [toni8790]
+          self.users = [BigSmoke19]
           self.userindex = 0
           self.nuvContent = ''
           self.msgurls = 'https://evea.uh.cu/'
