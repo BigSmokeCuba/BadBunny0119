@@ -10,7 +10,7 @@ class Config(object):
           self.ExcludeFiles = ['MoodleApp.pyproj','bot.py','Config.py','multiFile.py','MoodleUhoClient.py','S5Crypto.py','S4Crypto.py','nuvidb.txt','requirements.txt','Procfile','__pycache__','.git','.profile.d','.heroku','bot.session','bot.session-journal','output','.cache']
           self.ChunkedFileLimit = 1024 * 1024 * 1024
           self.InProcces = False
-          self.BotChannel = '-811906873'
+          self.BotChannel = ''
           self.AdminUsers = ['BigSmoke19']
           self.current_user_msg = ''
           self.current_chanel_msg = ''
