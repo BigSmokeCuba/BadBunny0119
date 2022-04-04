@@ -441,7 +441,8 @@ async def processMy(ev,bot):
 
 def init():
     try:
-        bot = TelegramClient('bot', api_id=api_id, api_hash=api_hash).start(bot_token=bot_token) 
+        bot = TelegramClient(
+		'bot', api_id=api_id, api_hash=api_hash).start(bot_token=bot_token) 
             
         bot.send_message('Bot Activo😎!!')
         action = 0
