@@ -443,7 +443,7 @@ def init():
     try:
         bot = TelegramClient('bot', api_id=api_id, api_hash=api_hash).start(bot_token=bot_token) 
             
-        bot.send_message(811906873,'Bot Activo😎!!')
+        bot.send_message('Bot Activo😎!!')
         action = 0
         actual_file = ''
 
@@ -452,11 +452,11 @@ def init():
                 text = ev.message.text
                 clear_cache()
                 if '#watch' in text:
-                    await bot.send_message(ev.chat_id,'Esperando...')
+                    await bot.send_message(ev.'Esperando...')
                     conf.watching = True
                 elif '#start' in text:
                     conf.watching = False
-                    await bot.send_message(ev.chat_id,'Proceso Iniciado!')
+                    await bot.send_message(ev.'Proceso Iniciado!')
                     for e in conf.watch_message:
                       await processMy(e,bot)
                     conf.watch_message.clear()
